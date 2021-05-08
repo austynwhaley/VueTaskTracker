@@ -5,15 +5,14 @@
 </template>
 
 <script>
-    import Button from './Button'
-
+    import AddBtn from './AddBtn'
     export default {
         name: 'Header',
         props: {
             title: String
         },
         components:{
-            Button
+            AddBtn
         }
     }
 </script>
@@ -26,3 +25,15 @@
         margin-bottom: 20px;
     }
 </style>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
